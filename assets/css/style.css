@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    text-align: justify;
+    color: #419CD8;
+}
+
+header {
+  color: #EFF7FC;
+  background-color: #59AFE8;
+}
+
+footer {
+  color: #EFF7FC;
+  background-color: #59AFE8;
+}
+
+.audio-player {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.badge-medium {
+  width: 500%;
+  max-width: fit-content;
+  padding: 1%;
+  border: 2px solid #419CD8;
+  background-color: #59AFE8;
+}
+
+.color-fondo {
+  background-color: #EFF7FC;
+}
+
+.texto-celeste {
+  color: #419CD8;
+}
+
+.titulo-mostaza {
+  color: #A59375;
+}
+
+#btn-enviar {
+  background-color: #59AFE8;
+  border: 2px solid #419CD8; 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+#btn-enviar:hover {
+  background-color: #FBA069;
+  border-color: #7bc3c5; 
+}
+
+
+
